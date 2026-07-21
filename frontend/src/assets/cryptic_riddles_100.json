@@ -1,0 +1,1609 @@
+[
+  {
+    "id": 1,
+    "difficulty": 1,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "👨‍💻",
+      "☕",
+      "0101"
+    ],
+    "answer": "PROGRAMMER",
+    "hint_id": "Orang yang menulis baris kode komputer.",
+    "hint_en": "A person who writes computer software code.",
+    "explanation_id": "Programmer adalah profesional yang merancang, menulis, dan menguji kode untuk membuat aplikasi atau perangkat lunak.",
+    "explanation_en": "A programmer is a professional who designs, writes, and tests code to create applications or software."
+  },
+  {
+    "id": 2,
+    "difficulty": 1,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "🕷️",
+      "🕸️",
+      "🌐"
+    ],
+    "answer": "WEBSITE",
+    "hint_id": "Halaman informasi di internet.",
+    "hint_en": "A collection of web pages on the internet.",
+    "explanation_id": "Website adalah kumpulan halaman web saling terhubung yang dapat diakses publik melalui domain di internet.",
+    "explanation_en": "A website is a collection of interconnected web pages accessible publicly via a domain on the internet."
+  },
+  {
+    "id": 3,
+    "difficulty": 1,
+    "category_id": "Software",
+    "category_en": "Software",
+    "clues": [
+      "🔥",
+      "🦊"
+    ],
+    "answer": "FIREFOX",
+    "hint_id": "Peramban web populer berlogo rubah api.",
+    "hint_en": "A popular web browser featuring a fire fox logo.",
+    "explanation_id": "Mozilla Firefox adalah web browser open-source yang fokus pada privasi dan kecepatan pengguna.",
+    "explanation_en": "Mozilla Firefox is an open-source web browser focused on user privacy and performance."
+  },
+  {
+    "id": 4,
+    "difficulty": 2,
+    "category_id": "Kripto & Cyber",
+    "category_en": "Crypto & Cyber",
+    "clues": [
+      "🔒",
+      "🔑",
+      "⛓️"
+    ],
+    "answer": "BLOCKCHAIN",
+    "hint_id": "Buku besar digital terdesentralisasi.",
+    "hint_en": "A decentralized digital ledger technology.",
+    "explanation_id": "Blockchain adalah teknologi penyimpanan data terenkripsi dan terdesentralisasi yang menjadi dasar mata uang kripto.",
+    "explanation_en": "Blockchain is an encrypted, decentralized data storage technology forming the backbone of cryptocurrencies."
+  },
+  {
+    "id": 5,
+    "difficulty": 1,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "🐛",
+      "💻",
+      "🔍"
+    ],
+    "answer": "BUG",
+    "hint_id": "Kesalahan atau cacat dalam kode program.",
+    "hint_en": "An error or flaw in software code.",
+    "explanation_id": "Bug adalah istilah untuk kesalahan atau cacat pada software yang menyebabkan hasil tidak sesuai harapan.",
+    "explanation_en": "A bug refers to an error or flaw in software causing it to produce incorrect or unexpected results."
+  },
+  {
+    "id": 6,
+    "difficulty": 2,
+    "category_id": "Keamanan Cyber",
+    "category_en": "Cyber Security",
+    "clues": [
+      "🧱",
+      "🔥",
+      "🛡️"
+    ],
+    "answer": "FIREWALL",
+    "hint_id": "Sistem keamanan jaringan pemblokir akses terlarang.",
+    "hint_en": "A network security system blocking unauthorized access.",
+    "explanation_id": "Firewall berfungsi memfilter lalu lintas jaringan untuk mencegah akses yang tidak sah atau berbahaya.",
+    "explanation_en": "A firewall filters network traffic to prevent unauthorized or malicious access to a system."
+  },
+  {
+    "id": 7,
+    "difficulty": 1,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "☁️",
+      "💾",
+      "📡"
+    ],
+    "answer": "CLOUD STORAGE",
+    "hint_id": "Penyimpanan data berbasis jaringan internet.",
+    "hint_en": "Internet-based online data storage.",
+    "explanation_id": "Cloud storage memungkinkan pengguna menyimpan dan mengakses data dari mana saja melalui koneksi internet.",
+    "explanation_en": "Cloud storage allows users to store and access data from anywhere via an internet connection."
+  },
+  {
+    "id": 8,
+    "difficulty": 2,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "🤖",
+      "🧠",
+      "💡"
+    ],
+    "answer": "ARTIFICIAL INTELLIGENCE",
+    "hint_id": "Kecerdasan buatan pada sistem komputer.",
+    "hint_en": "Machine-based artificial intelligence.",
+    "explanation_id": "Artificial Intelligence (AI) adalah simulasi kecerdasan manusia yang diterapkan dalam mesin atau komputer.",
+    "explanation_en": "Artificial Intelligence (AI) simulates human intelligence within computer systems and machines."
+  },
+  {
+    "id": 9,
+    "difficulty": 2,
+    "category_id": "Bahasa Pemrograman",
+    "category_en": "Programming Language",
+    "clues": [
+      "🐍",
+      "💻",
+      "📜"
+    ],
+    "answer": "PYTHON",
+    "hint_id": "Bahasa pemrograman populer yang dinamai ala ular.",
+    "hint_en": "A popular programming language named after a snake.",
+    "explanation_id": "Python adalah bahasa pemrograman tingkat tinggi yang sangat populer untuk analisis data, AI, dan web.",
+    "explanation_en": "Python is a high-level programming language widely used in data analysis, AI, and web development."
+  },
+  {
+    "id": 10,
+    "difficulty": 2,
+    "category_id": "Software",
+    "category_en": "Software",
+    "clues": [
+      "🐳",
+      "📦",
+      "💻"
+    ],
+    "answer": "DOCKER",
+    "hint_id": "Platform kontainerisasi aplikasi berlogo paus.",
+    "hint_en": "Application containerization platform with a whale logo.",
+    "explanation_id": "Docker memudahkan pengembang membungkus aplikasi dan dependensinya ke dalam unit kontainer yang konsisten.",
+    "explanation_en": "Docker allows developers to package applications and dependencies into standardized containers."
+  },
+  {
+    "id": 11,
+    "difficulty": 1,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "📶",
+      "🌐",
+      "📱"
+    ],
+    "answer": "WIFI",
+    "hint_id": "Jaringan nirkabel penghubung internet.",
+    "hint_en": "Wireless fidelity internet connection.",
+    "explanation_id": "Wi-Fi menggunakan gelombang radio untuk menyediakan koneksi jaringan nirkabel berkecepatan tinggi.",
+    "explanation_en": "Wi-Fi utilizes radio waves to provide high-speed wireless network connectivity."
+  },
+  {
+    "id": 12,
+    "difficulty": 1,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "🦷",
+      "🔵",
+      "🎧"
+    ],
+    "answer": "BLUETOOTH",
+    "hint_id": "Koneksi jarak dekat nirkabel antar perangkat.",
+    "hint_en": "Short-range wireless device connectivity.",
+    "explanation_id": "Bluetooth adalah teknologi nirkabel jarak pendek untuk bertukar data antar perangkat mobile dan aksesori.",
+    "explanation_en": "Bluetooth is a short-range wireless technology used to exchange data between electronic devices."
+  },
+  {
+    "id": 13,
+    "difficulty": 2,
+    "category_id": "Aplikasi",
+    "category_en": "Application",
+    "clues": [
+      "✈️",
+      "💬",
+      "🤖"
+    ],
+    "answer": "TELEGRAM",
+    "hint_id": "Aplikasi perpesanan berlogo pesawat kertas.",
+    "hint_en": "Messaging app featuring a paper plane logo.",
+    "explanation_id": "Telegram adalah aplikasi pesan instan berbasis cloud yang terkenal dengan kecepatan, enkripsi, dan fitur bot.",
+    "explanation_en": "Telegram is a cloud-based instant messaging app known for speed, security encryption, and bot integrations."
+  },
+  {
+    "id": 14,
+    "difficulty": 2,
+    "category_id": "Keamanan Cyber",
+    "category_en": "Cyber Security",
+    "clues": [
+      "🦠",
+      "💻",
+      "⚠️"
+    ],
+    "answer": "VIRUS",
+    "hint_id": "Program berbahaya pengganda diri di komputer.",
+    "hint_en": "Malicious self-replicating software on computers.",
+    "explanation_id": "Virus komputer adalah jenis malware yang dapat menggandakan diri dan merusak sistem atau data pengguna.",
+    "explanation_en": "A computer virus is a type of malware that replicates itself to corrupt system software and user data."
+  },
+  {
+    "id": 15,
+    "difficulty": 1,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "🔑",
+      "🛡️",
+      "👤"
+    ],
+    "answer": "PASSWORD",
+    "hint_id": "Kunci rahasia untuk otentikasi akun.",
+    "hint_en": "Secret string of characters for account access.",
+    "explanation_id": "Password adalah rangkaian karakter rahasia yang digunakan untuk memverifikasi identitas pengguna.",
+    "explanation_en": "A password is a secret string of characters used to authenticate a user's identity."
+  },
+  {
+    "id": 16,
+    "difficulty": 3,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "🗄️",
+      "📊",
+      "💾"
+    ],
+    "answer": "DATABASE",
+    "hint_id": "Kumpulan data terstruktur yang tersimpan rapi.",
+    "hint_en": "An organized collection of structured data.",
+    "explanation_id": "Database adalah sistem penyimpanan data elektronik terstruktur yang gampang diakses dan dikelola.",
+    "explanation_en": "A database is an organized collection of structured information stored electronically."
+  },
+  {
+    "id": 17,
+    "difficulty": 2,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "🌙",
+      "💻",
+      "🎨"
+    ],
+    "answer": "DARK MODE",
+    "hint_id": "Tampilan layar gelap pemotong radiasi cahaya.",
+    "hint_en": "Dark color scheme display setting.",
+    "explanation_id": "Dark Mode adalah skema warna gelap pada antarmuka aplikasi untuk menghemat baterai dan mengurangi lelah mata.",
+    "explanation_en": "Dark Mode is a dark color interface option designed to reduce eye strain and conserve battery life."
+  },
+  {
+    "id": 18,
+    "difficulty": 2,
+    "category_id": "Brand Tech",
+    "category_en": "Tech Brand",
+    "clues": [
+      "👁️",
+      "🐝",
+      "Ⓜ️"
+    ],
+    "answer": "IBM",
+    "hint_id": "Pelafalan fonetik huruf dari emoji (Eye-Bee-M).",
+    "hint_en": "Phonetic pronunciation of the emojis (Eye-Bee-M).",
+    "explanation_id": "IBM (International Business Machines) adalah salah satu perusahaan pionir teknologi komputer terbesar di dunia.",
+    "explanation_en": "IBM (International Business Machines) is a global pioneer and giant in computer technology and hardware."
+  },
+  {
+    "id": 19,
+    "difficulty": 3,
+    "category_id": "Pengembangan Web",
+    "category_en": "Web Development",
+    "clues": [
+      "🎨",
+      "🧱",
+      "📐"
+    ],
+    "answer": "FRONTEND",
+    "hint_id": "Bagian antarmuka web yang dilihat pengguna.",
+    "hint_en": "The client-side visual interface of a website.",
+    "explanation_id": "Frontend merujuk pada bagian antarmuka pengguna (UI) aplikasi yang berinteraksi langsung dengan pengguna.",
+    "explanation_en": "Frontend refers to the client-side user interface (UI) with which users directly interact."
+  },
+  {
+    "id": 20,
+    "difficulty": 3,
+    "category_id": "Pengembangan Web",
+    "category_en": "Web Development",
+    "clues": [
+      "⚙️",
+      "🖥️",
+      "🗄️"
+    ],
+    "answer": "BACKEND",
+    "hint_id": "Sistem server dan logika di belakang layar.",
+    "hint_en": "Server-side logic and database engine.",
+    "explanation_id": "Backend adalah bagian server dari aplikasi yang mengelola data, logika bisnis, dan otentikasi.",
+    "explanation_en": "Backend is the server-side component of an application handling databases, business logic, and security."
+  },
+  {
+    "id": 21,
+    "difficulty": 1,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "👨‍⚕️",
+      "🩺",
+      "💊"
+    ],
+    "answer": "DOKTER",
+    "hint_id": "Penyembuh pasien di rumah sakit.",
+    "hint_en": "Medical professional treating patients.",
+    "explanation_id": "Dokter adalah tenaga medis profesional yang terlisensi untuk mendiagnosis dan mengobati penyakit.",
+    "explanation_en": "A doctor is a licensed medical professional qualified to practice medicine and treat illnesses."
+  },
+  {
+    "id": 22,
+    "difficulty": 1,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "👨‍🍳",
+      "🍳",
+      "🍕"
+    ],
+    "answer": "CHEF",
+    "hint_id": "Ahli memasak hidangan lezat.",
+    "hint_en": "Professional culinary artist.",
+    "explanation_id": "Chef adalah juru masak profesional yang memimpin dapur dan merancang resep makanan lezat.",
+    "explanation_en": "A chef is a trained professional cook responsible for kitchen management and culinary creations."
+  },
+  {
+    "id": 23,
+    "difficulty": 1,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "👨‍✈️",
+      "✈️",
+      "🌤️"
+    ],
+    "answer": "PILOT",
+    "hint_id": "Pengemudi burung besi di udara.",
+    "hint_en": "Operator of aircraft in the sky.",
+    "explanation_id": "Pilot adalah profesional yang mengemudikan pesawat terbang untuk mengangkut penumpang atau kargo.",
+    "explanation_en": "A pilot is a certified professional trained to operate and navigate aircraft safely."
+  },
+  {
+    "id": 24,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "👨‍🚀",
+      "🚀",
+      "🌌"
+    ],
+    "answer": "ASTRONOT",
+    "hint_id": "Penjelajah luar angkasa.",
+    "hint_en": "Space explorer traveling to orbit.",
+    "explanation_id": "Astronot adalah orang yang terlatih khusus untuk menjalankan misi penerbangan ke luar angkasa.",
+    "explanation_en": "An astronaut is a person trained by a space program to command or serve on spacecraft."
+  },
+  {
+    "id": 25,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "🕵️",
+      "🔍",
+      "🕵️‍♀️"
+    ],
+    "answer": "DETEKTIF",
+    "hint_id": "Penyelidik kasus rahasia.",
+    "hint_en": "Investigator solving mysterious cases.",
+    "explanation_id": "Detektif adalah penyelidik yang bertugas mengumpulkan bukti dan memecahkan teka-teki kejahatan.",
+    "explanation_en": "A detective is an investigator who gathers evidence to solve crimes and uncover facts."
+  },
+  {
+    "id": 26,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "👩‍🚒",
+      "🚒",
+      "🔥"
+    ],
+    "answer": "PEMADAM KEBAKARAN",
+    "hint_id": "Penyelamat dari bahaya si jago merah.",
+    "hint_en": "First responder extinguishing fires.",
+    "explanation_id": "Pemadam kebakaran adalah petugas penyelamat terlatih yang memadamkan api dan menangani darurat.",
+    "explanation_en": "A firefighter is a trained responder equipped to extinguish fires and rescue people from hazards."
+  },
+  {
+    "id": 27,
+    "difficulty": 1,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "👨‍🏫",
+      "📚",
+      "🏫"
+    ],
+    "answer": "GURU",
+    "hint_id": "Pendidik siswa di sekolah.",
+    "hint_en": "Educator teaching students in school.",
+    "explanation_id": "Guru adalah pendidik profesional yang mentransfer ilmu pengetahuan dan membentuk karakter siswa.",
+    "explanation_en": "A teacher is an educator who imparts knowledge and shapes students' character in educational institutions."
+  },
+  {
+    "id": 28,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "👨‍🔬",
+      "🧪",
+      "🔬"
+    ],
+    "answer": "ILMUWAN",
+    "hint_id": "Peneliti eksperimen ilmiah.",
+    "hint_en": "Researcher conducting scientific experiments.",
+    "explanation_id": "Ilmuwan adalah ahli yang mempelajari sistem ilmiah melalui observasi, penelitian, dan eksperimen.",
+    "explanation_en": "A scientist is an expert who studies natural sciences through systematic observation and experimentation."
+  },
+  {
+    "id": 29,
+    "difficulty": 2,
+    "category_id": "Profesi Cyber",
+    "category_en": "Cyber Profession",
+    "clues": [
+      "🥷",
+      "💻",
+      "🔓"
+    ],
+    "answer": "HACKER",
+    "hint_id": "Aktivis atau peretas sistem digital.",
+    "hint_en": "Computer expert breaking into digital systems.",
+    "explanation_id": "Hacker adalah seseorang dengan keahlian teknis tinggi yang mengeksplorasi atau menembus kelemahan sistem.",
+    "explanation_en": "A hacker is an individual with advanced technical skills who explores or exploits system vulnerabilities."
+  },
+  {
+    "id": 30,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "📸",
+      "🖼️",
+      "📷"
+    ],
+    "answer": "FOTOGRAFER",
+    "hint_id": "Penangkap momen lewat lensa kamera.",
+    "hint_en": "Visual artist capturing moments through camera.",
+    "explanation_id": "Fotografer menggunakan kamera dan pencahayaan untuk merekam gambar artistik atau dokumentasi.",
+    "explanation_en": "A photographer uses cameras and lighting techniques to capture artistic or documentary images."
+  },
+  {
+    "id": 31,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "🏗️",
+      "📐",
+      "🏢"
+    ],
+    "answer": "ARSITEK",
+    "hint_id": "Perancang denah bangunan gedung.",
+    "hint_en": "Building structure and space designer.",
+    "explanation_id": "Arsitek adalah ahli perancang tata ruang dan estetika bangunan gedung modern.",
+    "explanation_en": "An architect is a professional qualified to design and plan buildings and structural aesthetics."
+  },
+  {
+    "id": 32,
+    "difficulty": 1,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "🌾",
+      "🚜",
+      "👨‍🌾"
+    ],
+    "answer": "PETANI",
+    "hint_id": "Penanam tanaman pangan dan hasil bumi.",
+    "hint_en": "Cultivator of crops and agricultural goods.",
+    "explanation_id": "Petani mengelola lahan pertanian untuk menghasilkan tanaman pangan segar bagi masyarakat.",
+    "explanation_en": "A farmer cultivates land and grows agricultural crops to supply essential food resources."
+  },
+  {
+    "id": 33,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "⚖️",
+      "👨‍⚖️",
+      "📜"
+    ],
+    "answer": "HAKIM",
+    "hint_id": "Penentu keadilan di pengadilan.",
+    "hint_en": "Judicial officer presiding over law court.",
+    "explanation_id": "Hakim memimpin persidangan dan memutuskan hukuman sesuai aturan hukum yang berlaku.",
+    "explanation_en": "A judge presides over court proceedings and administers justice based on legal standards."
+  },
+  {
+    "id": 34,
+    "difficulty": 1,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "🎙️",
+      "📻",
+      "🗣️"
+    ],
+    "answer": "PENYIAR",
+    "hint_id": "Pembawa acara radio atau TV.",
+    "hint_en": "Radio or television broadcaster.",
+    "explanation_id": "Penyiarkan menyajikan informasi dan hiburan melalui media siaran suara atau audio visual.",
+    "explanation_en": "A broadcaster presents news, music, and entertainment over radio or television media."
+  },
+  {
+    "id": 35,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "🔧",
+      "👨‍🔧",
+      "🚗"
+    ],
+    "answer": "MEKANIK",
+    "hint_id": "Ahli perbaikan mesin kendaraan.",
+    "hint_en": "Vehicle machine repair specialist.",
+    "explanation_id": "Mekanik merawat dan mengencangkan komponen mesin kendaraan agar berjalan optimal.",
+    "explanation_en": "A mechanic inspects, maintains, and repairs machinery and motor vehicles."
+  },
+  {
+    "id": 36,
+    "difficulty": 1,
+    "category_id": "Hiburan",
+    "category_en": "Entertainment",
+    "clues": [
+      "🎮",
+      "🏆",
+      "🕹️"
+    ],
+    "answer": "GAMER",
+    "hint_id": "Pemain permainan video aktif.",
+    "hint_en": "Player of electronic video games.",
+    "explanation_id": "Gamer adalah sebutan bagi pemain yang berdedikasi memenangkan permainan game digital.",
+    "explanation_en": "A gamer is an individual who actively plays interactive video games casually or competitively."
+  },
+  {
+    "id": 37,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "👨‍💼",
+      "👔",
+      "💼"
+    ],
+    "answer": "EKSEKUTIF",
+    "hint_id": "Pimpinan manajemen perusahaan.",
+    "hint_en": "Corporate business leader.",
+    "explanation_id": "Eksekutif mengelola arah strategi dan operasional dalam struktur bisnis perusahaan.",
+    "explanation_en": "An executive manages corporate strategy and high-level business operations."
+  },
+  {
+    "id": 38,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "🎨",
+      "🖌️",
+      "🖼️"
+    ],
+    "answer": "PELUKIS",
+    "hint_id": "Pembuat karya seni kuas cat.",
+    "hint_en": "Artist creating canvas paintings.",
+    "explanation_id": "Pelukis mengekspresikan gagasan estetika melalui sapuan warna kuas di atas kanvas.",
+    "explanation_en": "A painter creates visual art by applying pigments to a canvas or surface."
+  },
+  {
+    "id": 39,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "📜",
+      "✒️",
+      "📖"
+    ],
+    "answer": "PENULIS",
+    "hint_id": "Pencipta buku dan karya tulisan.",
+    "hint_en": "Author writing books and literature.",
+    "explanation_id": "Penulis mengarang tulisan naratif, karya sastra, atau buku pengetahuan.",
+    "explanation_en": "An author or writer composes written works, books, and articles."
+  },
+  {
+    "id": 40,
+    "difficulty": 2,
+    "category_id": "Profesi",
+    "category_en": "Profession",
+    "clues": [
+      "🎤",
+      "🎵",
+      "🎧"
+    ],
+    "answer": "PENYANYI",
+    "hint_id": "Pembangkit nada indah vokal lagu.",
+    "hint_en": "Vocalist performing musical songs.",
+    "explanation_id": "Penyanyi melantunkan nada vokal indah yang menghibur para pendengar musik.",
+    "explanation_en": "A singer is a musician who uses their voice to produce musical melodies and songs."
+  },
+  {
+    "id": 41,
+    "difficulty": 1,
+    "category_id": "Brand Otomotif",
+    "category_en": "Automotive Brand",
+    "clues": [
+      "🚗",
+      "🔋",
+      "⚡"
+    ],
+    "answer": "TESLA",
+    "hint_id": "Produsen mobil listrik terkenal asal Amerika.",
+    "hint_en": "Famous American electric vehicle manufacturer.",
+    "explanation_id": "Tesla adalah pelopor kendaraan listrik canggih berfitur autopilot yang dipimpin oleh Elon Musk.",
+    "explanation_en": "Tesla is an electric vehicle pioneer renowned for clean energy cars and autopilot tech."
+  },
+  {
+    "id": 42,
+    "difficulty": 1,
+    "category_id": "Brand Tech",
+    "category_en": "Tech Brand",
+    "clues": [
+      "🍎",
+      "💻",
+      "📱"
+    ],
+    "answer": "APPLE",
+    "hint_id": "Perusahaan pembuat iPhone dan Mac.",
+    "hint_en": "Maker of iPhone and Mac hardware.",
+    "explanation_id": "Apple Inc. adalah raksasa teknologi pembuat produk ikonik seperti iPhone, iPad, dan Mac.",
+    "explanation_en": "Apple Inc. is a global technology giant famous for consumer hardware like iPhone and Mac."
+  },
+  {
+    "id": 43,
+    "difficulty": 1,
+    "category_id": "Brand E-Commerce",
+    "category_en": "E-Commerce Brand",
+    "clues": [
+      "📦",
+      "🛒",
+      "📦"
+    ],
+    "answer": "AMAZON",
+    "hint_id": "Raksasa toko online pasar global.",
+    "hint_en": "Global e-commerce marketplace giant.",
+    "explanation_id": "Amazon merupakan platform e-commerce dan penyedia cloud computing terbesar di dunia.",
+    "explanation_en": "Amazon is a dominant global e-commerce platform and cloud infrastructure service provider."
+  },
+  {
+    "id": 44,
+    "difficulty": 2,
+    "category_id": "Media Sosial",
+    "category_en": "Social Media",
+    "clues": [
+      "🐦",
+      "💬",
+      "✖️"
+    ],
+    "answer": "TWITTER",
+    "hint_id": "Platform tweet berlogo burung yang kini menjadi X.",
+    "hint_en": "Bird-logo microblogging platform now known as X.",
+    "explanation_id": "Twitter (sekarang X) adalah jaringan media sosial mikroblog tempat berbagi pemikiran singkat.",
+    "explanation_en": "Twitter (now rebranded as X) is a microblogging platform for sharing real-time updates."
+  },
+  {
+    "id": 45,
+    "difficulty": 1,
+    "category_id": "Streaming",
+    "category_en": "Streaming",
+    "clues": [
+      "🎬",
+      "🍿",
+      "🔴"
+    ],
+    "answer": "NETFLIX",
+    "hint_id": "Layanan streaming film dan serial berlogo N merah.",
+    "hint_en": "Movie streaming subscription platform with red N logo.",
+    "explanation_id": "Netflix adalah pelopor layanan berlangganan video streaming film dan serial TV seluruh dunia.",
+    "explanation_en": "Netflix is a leading global video streaming subscription service for movies and TV series."
+  },
+  {
+    "id": 46,
+    "difficulty": 1,
+    "category_id": "Musik",
+    "category_en": "Music",
+    "clues": [
+      "🎧",
+      "🟢",
+      "🎶"
+    ],
+    "answer": "SPOTIFY",
+    "hint_id": "Aplikasi pemutar musik hijau bergelombang.",
+    "hint_en": "Green icon digital audio streaming platform.",
+    "explanation_id": "Spotify menyediakan akses ke jutaan lagu dan podcast digital streaming secara legal.",
+    "explanation_en": "Spotify provides legal digital access to millions of songs and podcasts worldwide."
+  },
+  {
+    "id": 47,
+    "difficulty": 1,
+    "category_id": "Sistem Operasi",
+    "category_en": "Operating System",
+    "clues": [
+      "🤖",
+      "📱",
+      "🟢"
+    ],
+    "answer": "ANDROID",
+    "hint_id": "Sistem operasi seluler berlogo robot hijau.",
+    "hint_en": "Green robot mobile operating system.",
+    "explanation_id": "Android adalah OS seluler berbasis Linux buatan Google yang paling banyak digunakan di smartphone.",
+    "explanation_en": "Android is a Google-developed Linux-based mobile operating system powering most smartphones."
+  },
+  {
+    "id": 48,
+    "difficulty": 1,
+    "category_id": "Video Platform",
+    "category_en": "Video Platform",
+    "clues": [
+      "📺",
+      "🔴",
+      "▶️"
+    ],
+    "answer": "YOUTUBE",
+    "hint_id": "Situs berbagi video paling populer di dunia.",
+    "hint_en": "World's largest video sharing website.",
+    "explanation_id": "YouTube memungkinkan jutaan pencipta konten mengunggah dan menonton video secara gratis.",
+    "explanation_en": "YouTube allows millions of creators to upload, share, and view video content globally."
+  },
+  {
+    "id": 49,
+    "difficulty": 1,
+    "category_id": "Sistem Operasi",
+    "category_en": "Operating System",
+    "clues": [
+      "🪟",
+      "💻",
+      "🗔"
+    ],
+    "answer": "WINDOWS",
+    "hint_id": "Sistem operasi PC berlogo jendela buatan Microsoft.",
+    "hint_en": "Microsoft window-logo desktop operating system.",
+    "explanation_id": "Windows adalah sistem operasi komputer desktop paling populer hasil kembangan Microsoft.",
+    "explanation_en": "Windows is Microsoft's flagship desktop operating system used across personal computers."
+  },
+  {
+    "id": 50,
+    "difficulty": 2,
+    "category_id": "Sistem Operasi",
+    "category_en": "Operating System",
+    "clues": [
+      "🐧",
+      "💻",
+      "🔓"
+    ],
+    "answer": "LINUX",
+    "hint_id": "OS open source bermaskot pinguin bernama Tux.",
+    "hint_en": "Open-source OS featuring a penguin mascot named Tux.",
+    "explanation_id": "Linux adalah sistem operasi open source yang mendasari sebagian besar server dan superkomputer.",
+    "explanation_en": "Linux is a powerful open-source operating system core powering servers and supercomputers."
+  },
+  {
+    "id": 51,
+    "difficulty": 2,
+    "category_id": "Media Sosial",
+    "category_en": "Social Media",
+    "clues": [
+      "📸",
+      "📷",
+      "⏹️"
+    ],
+    "answer": "INSTAGRAM",
+    "hint_id": "Aplikasi berbagi foto dan Insta Story.",
+    "hint_en": "Photo and video sharing social media network.",
+    "explanation_id": "Instagram memfokuskan berbagi momen estetika lewat foto, video Reels, dan Stories.",
+    "explanation_en": "Instagram centers on sharing visual moments, photography, Reels, and Stories."
+  },
+  {
+    "id": 52,
+    "difficulty": 1,
+    "category_id": "Mesin Pencari",
+    "category_en": "Search Engine",
+    "clues": [
+      "🔍",
+      "🌐",
+      "🔴"
+    ],
+    "answer": "GOOGLE",
+    "hint_id": "Mesin pencari web nomor satu di bumi.",
+    "hint_en": "The world's leading web search engine.",
+    "explanation_id": "Google mengindeks miliar informasi internet untuk ditemukan pengguna dalam hitungan detik.",
+    "explanation_en": "Google indexes billions of web pages to instantly answer user information queries."
+  },
+  {
+    "id": 53,
+    "difficulty": 2,
+    "category_id": "Game Console",
+    "category_en": "Game Console",
+    "clues": [
+      "🕹️",
+      "🎮",
+      "🇯🇵"
+    ],
+    "answer": "NINTENDO",
+    "hint_id": "Pencipta konsol Switch dan karakter Mario.",
+    "hint_en": "Japanese creator of Switch and Mario franchise.",
+    "explanation_id": "Nintendo adalah raksasa video game asal Jepang pencetak karakter legendaris seperti Mario dan Pokemon.",
+    "explanation_en": "Nintendo is a iconic Japanese video game company famous for Mario, Zelda, and Switch consoles."
+  },
+  {
+    "id": 54,
+    "difficulty": 2,
+    "category_id": "Kecerdasan Buatan",
+    "category_en": "Artificial Intelligence",
+    "clues": [
+      "💬",
+      "🤖",
+      "⚡"
+    ],
+    "answer": "CHATGPT",
+    "hint_id": "Asisten chatbot AI percakapan dari OpenAI.",
+    "hint_en": "Conversational AI chatbot developed by OpenAI.",
+    "explanation_id": "ChatGPT adalah model bahasa raksasa yang mampu berinteraksi percakapan ala manusia.",
+    "explanation_en": "ChatGPT is an advanced conversational language model capable of human-like dialogue."
+  },
+  {
+    "id": 55,
+    "difficulty": 3,
+    "category_id": "Game",
+    "category_en": "Game",
+    "clues": [
+      "⛏️",
+      "🧱",
+      "🟩"
+    ],
+    "answer": "MINECRAFT",
+    "hint_id": "Game membangun dunia balok 3D.",
+    "hint_en": "3D block-building sandbox game.",
+    "explanation_id": "Minecraft adalah game sandbox paling laris yang membebaskan pemain menyusun balok kreasi.",
+    "explanation_en": "Minecraft is a best-selling sandbox video game focused on block placing and exploration."
+  },
+  {
+    "id": 56,
+    "difficulty": 2,
+    "category_id": "Software",
+    "category_en": "Software",
+    "clues": [
+      "📄",
+      "📊",
+      "🖼️"
+    ],
+    "answer": "MICROSOFT OFFICE",
+    "hint_id": "Paket aplikasi kantoran Word, Excel, PowerPoint.",
+    "hint_en": "Productivity suite including Word, Excel, PowerPoint.",
+    "explanation_id": "Microsoft Office adalah kumpulan software produktivitas standar industri dokumen dan spreadsheet.",
+    "explanation_en": "Microsoft Office is an essential productivity suite for word processing and spreadsheet data."
+  },
+  {
+    "id": 57,
+    "difficulty": 2,
+    "category_id": "Media Sosial",
+    "category_en": "Social Media",
+    "clues": [
+      "🎵",
+      "📱",
+      "💃"
+    ],
+    "answer": "TIKTOK",
+    "hint_id": "Aplikasi video pendek populer berlagu tren.",
+    "hint_en": "Popular short-form viral video sharing app.",
+    "explanation_id": "TikTok populer dengan format video vertikal durasi singkat berlatar audio musik viral.",
+    "explanation_en": "TikTok popularized short vertical videos powered by creative music trends and algorithms."
+  },
+  {
+    "id": 58,
+    "difficulty": 2,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "🚕",
+      "📱",
+      "📍"
+    ],
+    "answer": "UBER",
+    "hint_id": "Pionir layanan ride-sharing transportasi online.",
+    "hint_en": "Pioneer app-based ride-sharing transportation.",
+    "explanation_id": "Uber merevolusi industri transportasi dengan menghubungkan pengemudi dan penumpang lewat smartphone.",
+    "explanation_en": "Uber revolutionized urban transit by connecting riders with drivers via a mobile app."
+  },
+  {
+    "id": 59,
+    "difficulty": 3,
+    "category_id": "Pop Culture",
+    "category_en": "Pop Culture",
+    "clues": [
+      "🦸",
+      "🦹",
+      "🎬"
+    ],
+    "answer": "MARVEL",
+    "hint_id": "Alam semesta pahlawan super Avengers.",
+    "hint_en": "Comic and film universe of Avengers superheroes.",
+    "explanation_id": "Marvel Entertainment terkenal dengan komik dan waralaba film pahlawan super raksasa.",
+    "explanation_en": "Marvel is world-famous for its superhero comic books and cinematic universe franchise."
+  },
+  {
+    "id": 60,
+    "difficulty": 2,
+    "category_id": "Olahraga",
+    "category_en": "Sports",
+    "clues": [
+      "⚽",
+      "🏆",
+      "🌍"
+    ],
+    "answer": "WORLD CUP",
+    "hint_id": "Turnamen sepak bola terbesar empat tahunan.",
+    "hint_en": "Quadrennial international football tournament.",
+    "explanation_id": "Piala Dunia FIFA adalah kompetisi sepak bola antar negara paling bergengsi di planet bumi.",
+    "explanation_en": "The FIFA World Cup is the premier quadrennial international soccer championship."
+  },
+  {
+    "id": 61,
+    "difficulty": 2,
+    "category_id": "Konsep Unik",
+    "category_en": "Unique Concept",
+    "clues": [
+      "🧠",
+      "🌊",
+      "💡"
+    ],
+    "answer": "BRAINSTORMING",
+    "hint_id": "Sesi curah pendapat kelompok mencari ide.",
+    "hint_en": "Group ideation process generating fresh ideas.",
+    "explanation_id": "Brainstorming adalah teknik diskusi kelompok untuk mengumpulkan ide-ide kreatif secara cepat.",
+    "explanation_en": "Brainstorming is a group creativity technique used to generate a large volume of ideas."
+  },
+  {
+    "id": 62,
+    "difficulty": 2,
+    "category_id": "Teka Teki Kata",
+    "category_en": "Wordplay",
+    "clues": [
+      "☀️",
+      "🌻",
+      "🟡"
+    ],
+    "answer": "SUNFLOWER",
+    "hint_id": "Bunga kuning mekar menghadap matahari.",
+    "hint_en": "Bright yellow flower tracking the sun.",
+    "explanation_id": "Bunga matahari terkenal karena selalu memutar kuncupnya mengarah ke sinar matahari.",
+    "explanation_en": "Sunflowers are iconic for heliotropism, turning their blooms to face the sun across the sky."
+  },
+  {
+    "id": 63,
+    "difficulty": 2,
+    "category_id": "Teka Teki Kata",
+    "category_en": "Wordplay",
+    "clues": [
+      "🍉",
+      "💧",
+      "🟢"
+    ],
+    "answer": "WATERMELON",
+    "hint_id": "Buah semangka kaya kandungan air segar.",
+    "hint_en": "Juicy green-skinned red fruit.",
+    "explanation_id": "Watermelon (semangka) mengandung lebih dari 90% air yang menyegarkan dahaga saat cuaca panas.",
+    "explanation_en": "Watermelon is a refreshing summer fruit composed of over 90% water."
+  },
+  {
+    "id": 64,
+    "difficulty": 2,
+    "category_id": "Sains",
+    "category_en": "Science",
+    "clues": [
+      "🌌",
+      "🕳️",
+      "⬛"
+    ],
+    "answer": "BLACK HOLE",
+    "hint_id": "Objek luar angkasa bernila gravitasi penarik cahaya.",
+    "hint_en": "Region of space with inescapable gravitational pull.",
+    "explanation_id": "Lubang hitam (Black Hole) adalah area ruang hampa dengan gravitasi ekstrem yang menyerap cahaya.",
+    "explanation_en": "A black hole is a region of spacetime where gravity is so strong that nothing, not even light, can escape."
+  },
+  {
+    "id": 65,
+    "difficulty": 2,
+    "category_id": "Konsep Waktu",
+    "category_en": "Time Concept",
+    "clues": [
+      "⏳",
+      "🚀",
+      "🕰️"
+    ],
+    "answer": "TIME TRAVEL",
+    "hint_id": "Gagasan melintasi garis waktu masa lalu atau depan.",
+    "hint_en": "Concept of moving between points in time.",
+    "explanation_id": "Time Travel (Perjalanan Waktu) adalah konsep fiksi ilmiah berpindah titik waktu menggunakan mesin.",
+    "explanation_en": "Time Travel is a sci-fi concept of moving backwards or forwards through different points in time."
+  },
+  {
+    "id": 66,
+    "difficulty": 3,
+    "category_id": "Teori Fisika",
+    "category_en": "Physics Theory",
+    "clues": [
+      "🐱",
+      "📦",
+      "⚛️"
+    ],
+    "answer": "SCHRODINGER",
+    "hint_id": "Eksperimen pikiran kucing dalam kotak kuantum.",
+    "hint_en": "Quantum thought experiment featuring a cat in a box.",
+    "explanation_id": "Kucing Schrödinger adalah paradoks kuantum di mana kucing bisa hidup dan mati bersamaan sebelum diamati.",
+    "explanation_en": "Schrödinger's cat illustrates quantum superposition where an entity exists in multiple states until observed."
+  },
+  {
+    "id": 67,
+    "difficulty": 2,
+    "category_id": "Gaya Hidup",
+    "category_en": "Lifestyle",
+    "clues": [
+      "☕",
+      "⏰",
+      "🥐"
+    ],
+    "answer": "COFFEE BREAK",
+    "hint_id": "Istirahat sejenak menikmati secangkir kopi.",
+    "hint_en": "Short rest period during work for coffee.",
+    "explanation_id": "Coffee Break adalah jeda singkat di tengah jam kerja untuk menyegarkan pikiran kembali.",
+    "explanation_en": "A coffee break is a short mid-day pause from work activities to relax and re-energize."
+  },
+  {
+    "id": 68,
+    "difficulty": 2,
+    "category_id": "Lingkungan",
+    "category_en": "Environment",
+    "clues": [
+      "🌱",
+      "♻️",
+      "🟢"
+    ],
+    "answer": "ECO FRIENDLY",
+    "hint_id": "Produk ramah lingkungan dan bebas limbah.",
+    "hint_en": "Environmentally sustainable products and practices.",
+    "explanation_id": "Eco Friendly merujuk pada produk atau gaya hidup yang tidak merusak ekosistem alam bumi.",
+    "explanation_en": "Eco-friendly practices and items inflict minimal or zero harm on the natural environment."
+  },
+  {
+    "id": 69,
+    "difficulty": 3,
+    "category_id": "Teka Teki Kata",
+    "category_en": "Wordplay",
+    "clues": [
+      "🍯",
+      "🐝",
+      "🧱"
+    ],
+    "answer": "HONEYCOMB",
+    "hint_id": "Struktur sarang lebah heksagonal tempat madu.",
+    "hint_en": "Hexagonal wax structure made by bees.",
+    "explanation_id": "Honeycomb adalah susunan sel segi enam dari lilin lebah untuk menyimpan madu dan telur.",
+    "explanation_en": "A honeycomb is a mass of hexagonal wax cells built by honeybees to store honey and pollen."
+  },
+  {
+    "id": 70,
+    "difficulty": 1,
+    "category_id": "Alam",
+    "category_en": "Nature",
+    "clues": [
+      "🌈",
+      "🌧️",
+      "☀️"
+    ],
+    "answer": "RAINBOW",
+    "hint_id": "Lengkungan spektrum warna cantik di langit.",
+    "hint_en": "Multicolored arc in the sky after rain.",
+    "explanation_id": "Pelangi muncul akibat pembiasan dan pemantulan sinar matahari oleh titik-titik air hujan.",
+    "explanation_en": "A rainbow is an optical spectrum arc caused by reflection and refraction of light in water droplets."
+  },
+  {
+    "id": 71,
+    "difficulty": 2,
+    "category_id": "Alam",
+    "category_en": "Nature",
+    "clues": [
+      "❄️",
+      "🔬",
+      "⚪"
+    ],
+    "answer": "SNOWFLAKE",
+    "hint_id": "Kristal salju tunggal berbentuk unik.",
+    "hint_en": "Single unique ice crystal of snow.",
+    "explanation_id": "Setiap kristal salju (Snowflake) memiliki struktur simetris yang unik dan tidak ada yang identik.",
+    "explanation_en": "No two snowflakes are exactly identical; each ice crystal forms a distinct symmetrical structure."
+  },
+  {
+    "id": 72,
+    "difficulty": 2,
+    "category_id": "Teka Teki Kata",
+    "category_en": "Wordplay",
+    "clues": [
+      "🎆",
+      "🔥",
+      "🌃"
+    ],
+    "answer": "FIREWORK",
+    "hint_id": "Kembang api penyemarak perayaan malam.",
+    "hint_en": "Explosive pyrotechnics creating colorful night displays.",
+    "explanation_id": "Kembang api mengandung bahan kimia piroteknik yang meledak menghasilkan warna-warni di udara.",
+    "explanation_en": "Fireworks use pyrotechnics to generate stunning visual and auditory celebration displays."
+  },
+  {
+    "id": 73,
+    "difficulty": 1,
+    "category_id": "Game Concept",
+    "category_en": "Game Concept",
+    "clues": [
+      "💀",
+      "🎮",
+      "❌"
+    ],
+    "answer": "GAME OVER",
+    "hint_id": "Tanda akhir permainan saat pemain kalah.",
+    "hint_en": "Screen message indicating end of gameplay.",
+    "explanation_id": "Game Over menandakan kegagalan atau selesainya sesi permainan di mana pemain harus mengulang.",
+    "explanation_en": "Game Over signals the termination of a gaming session due to failure or completed objectives."
+  },
+  {
+    "id": 74,
+    "difficulty": 2,
+    "category_id": "Game Concept",
+    "category_en": "Game Concept",
+    "clues": [
+      "🥇",
+      "📈",
+      "⭐"
+    ],
+    "answer": "HIGH SCORE",
+    "hint_id": "Rekor nilai angka tertinggi dalam game.",
+    "hint_en": "Record top score achieved in a game.",
+    "explanation_id": "High Score adalah pemicu kompetisi pemain untuk memecahkan rekor angka terbaik.",
+    "explanation_en": "A high score is the highest point total recorded in a video game, motivating replayability."
+  },
+  {
+    "id": 75,
+    "difficulty": 2,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "📡",
+      "📶",
+      "🔥"
+    ],
+    "answer": "HOTSPOT",
+    "hint_id": "Pancar sinyal internet dari smartphone.",
+    "hint_en": "Wireless access point sharing cellular data.",
+    "explanation_id": "Hotspot seluler membagikan koneksi data internet ponsel ke perangkat sekitar via Wi-Fi.",
+    "explanation_en": "A mobile hotspot shares cellular network data wirelessly to nearby devices via Wi-Fi."
+  },
+  {
+    "id": 76,
+    "difficulty": 3,
+    "category_id": "Lingkungan",
+    "category_en": "Environment",
+    "clues": [
+      "☀️",
+      "🔋",
+      "🏠"
+    ],
+    "answer": "SOLAR ENERGY",
+    "hint_id": "Pembangkit listrik tenaga sinar surya.",
+    "hint_en": "Electricity harnessed from sunlight radiation.",
+    "explanation_id": "Energi surya menangkap foton sinar matahari menggunakan panel fotovoltaik untuk listrik bersih.",
+    "explanation_en": "Solar energy converts radiant light from the sun into clean, renewable electric power."
+  },
+  {
+    "id": 77,
+    "difficulty": 2,
+    "category_id": "Sains",
+    "category_en": "Science",
+    "clues": [
+      "🍎",
+      "🌍",
+      "⬇️"
+    ],
+    "answer": "GRAVITY",
+    "hint_id": "Gaya tarik bumi ditemui oleh Isaac Newton.",
+    "hint_en": "Earth's natural pull force discovered by Newton.",
+    "explanation_id": "Gravitasi adalah gaya alami yang menarik benda berselang massa ke arah pusat planet bumi.",
+    "explanation_en": "Gravity is a fundamental physical force pulling objects toward the center of a planet."
+  },
+  {
+    "id": 78,
+    "difficulty": 3,
+    "category_id": "Sains",
+    "category_en": "Science",
+    "clues": [
+      "🌱",
+      "☀️",
+      "🧪"
+    ],
+    "answer": "FOTOSINTESIS",
+    "hint_id": "Proses pembuatan makanan pada tumbuhan hijau.",
+    "hint_en": "Plant chemical process generating food from sunlight.",
+    "explanation_id": "Fotosintesis mengubah CO2 dan air menjadi glukosa dan oksigen dengan bantuan cahaya matahari.",
+    "explanation_en": "Photosynthesis converts carbon dioxide and water into oxygen and glucose using sunlight energy."
+  },
+  {
+    "id": 79,
+    "difficulty": 3,
+    "category_id": "Sains",
+    "category_en": "Science",
+    "clues": [
+      "🧬",
+      "🔬",
+      "🧪"
+    ],
+    "answer": "DNA",
+    "hint_id": "Molekul rantai ganda pembawa kode genetika.",
+    "hint_en": "Double-helix molecule encoding genetic traits.",
+    "explanation_id": "DNA membawa instruksi genetika pertumbuhan, perkembangan, dan fungsi seluruh makhluk hidup.",
+    "explanation_en": "DNA stores genetic information and instructions governing biological development and traits."
+  },
+  {
+    "id": 80,
+    "difficulty": 2,
+    "category_id": "Perkotaan",
+    "category_en": "Urban Tech",
+    "clues": [
+      "🏙️",
+      "📶",
+      "🤖"
+    ],
+    "answer": "SMART CITY",
+    "hint_id": "Kota berbasis integrasi jaringan IoT digital.",
+    "hint_en": "Urban area utilizing IoT digital integration.",
+    "explanation_id": "Smart City menggunakan sensor IoT dan data terpadu untuk meningkatkan efisiensi layanan perkotaan.",
+    "explanation_en": "A Smart City utilizes IoT sensors and data collection to optimize urban operations and services."
+  },
+  {
+    "id": 81,
+    "difficulty": 1,
+    "category_id": "Matematika",
+    "category_en": "Math",
+    "clues": [
+      "2️⃣",
+      "➡️",
+      "4️⃣",
+      "|",
+      "3️⃣",
+      "➡️",
+      "9️⃣",
+      "|",
+      "5️⃣",
+      "➡️",
+      "❓"
+    ],
+    "answer": "25",
+    "hint_id": "Pola pangkat dua (5 x 5).",
+    "hint_en": "Square value of 5 (5 x 5).",
+    "explanation_id": "Pola tersebut adalah pengkuadratan angka. Nilai dari 5 kuadrat (5²) adalah 25.",
+    "explanation_en": "The pattern represents squaring numbers. The value of 5 squared (5²) equals 25."
+  },
+  {
+    "id": 82,
+    "difficulty": 2,
+    "category_id": "Desain",
+    "category_en": "Design",
+    "clues": [
+      "🔴",
+      "🟢",
+      "🔵"
+    ],
+    "answer": "RGB",
+    "hint_id": "Tiga warna dasar pencahayaan monitor digital (Red, Green, Blue).",
+    "hint_en": "Primary digital screen lighting colors (Red, Green, Blue).",
+    "explanation_id": "RGB adalah model warna aditif berdasarkan kombinasi cahaya Merah, Hijau, dan Biru pada layar.",
+    "explanation_en": "RGB is an additive color model combining Red, Green, and Blue light on digital displays."
+  },
+  {
+    "id": 83,
+    "difficulty": 2,
+    "category_id": "Mata Uang",
+    "category_en": "Currency",
+    "clues": [
+      "🪙",
+      "₿",
+      "⚡"
+    ],
+    "answer": "BITCOIN",
+    "hint_id": "Aset kripto pertama di dunia ciptaan Satoshi.",
+    "hint_en": "The world's first cryptocurrency created by Satoshi.",
+    "explanation_id": "Bitcoin adalah mata uang digital terdesentralisasi pertama yang beroperasi tanpa bank sentral.",
+    "explanation_en": "Bitcoin is the pioneer decentralized cryptocurrency operating on a peer-to-peer blockchain."
+  },
+  {
+    "id": 84,
+    "difficulty": 2,
+    "category_id": "Kripto & Cyber",
+    "category_en": "Crypto & Cyber",
+    "clues": [
+      "🎨",
+      "🖼️",
+      "⛓️"
+    ],
+    "answer": "NFT",
+    "hint_id": "Sertifikat kepemilikan digital berbasis blockchain.",
+    "hint_en": "Non-fungible unique digital asset certificate.",
+    "explanation_id": "NFT (Non-Fungible Token) adalah token unik yang membuktikan kepemilikan aset digital di blockchain.",
+    "explanation_en": "NFTs (Non-Fungible Tokens) verify unique ownership of digital art or items on a blockchain."
+  },
+  {
+    "id": 85,
+    "difficulty": 3,
+    "category_id": "Pertanian Modern",
+    "category_en": "Modern Agriculture",
+    "clues": [
+      "💧",
+      "🌱",
+      "🏢"
+    ],
+    "answer": "HIDROPONIK",
+    "hint_id": "Bercocok tanam tanpa menggunakan tanah.",
+    "hint_en": "Soil-less plant farming using nutrient water.",
+    "explanation_id": "Hidroponik adalah metode budidaya tanaman memanfaatkan air bernutrisi tanpa media tanah.",
+    "explanation_en": "Hydroponics is a method of growing plants in water-based nutrient solutions without soil."
+  },
+  {
+    "id": 86,
+    "difficulty": 2,
+    "category_id": "Kantor Digital",
+    "category_en": "Digital Office",
+    "clues": [
+      "📄",
+      "🚫",
+      "💻"
+    ],
+    "answer": "PAPERLESS",
+    "hint_id": "Sistem kerja tanpa kertas fisik.",
+    "hint_en": "Work environment eliminating physical paper.",
+    "explanation_id": "Paperless adalah budaya kerja mengalihkan dokumen cetak ke format file digital yang hemat lingkungan.",
+    "explanation_en": "Paperless environments replace physical paper documents with digital electronic files."
+  },
+  {
+    "id": 87,
+    "difficulty": 2,
+    "category_id": "Pertanian Modern",
+    "category_en": "Modern Agriculture",
+    "clues": [
+      "🍎",
+      "🐛",
+      "🚫"
+    ],
+    "answer": "ORGANIK",
+    "hint_id": "Pertanian bebas bahan kimia sintetis.",
+    "hint_en": "Chemical-free synthetic pesticide farming.",
+    "explanation_id": "Produk organik dibudidayakan secara alami tanpa pupuk atau pestisida berbahan kimia buatan.",
+    "explanation_en": "Organic produce is grown naturally without synthetic fertilizers or chemical pesticides."
+  },
+  {
+    "id": 88,
+    "difficulty": 3,
+    "category_id": "Kriptografi",
+    "category_en": "Cryptography",
+    "clues": [
+      "🔐",
+      "🔣",
+      "📜"
+    ],
+    "answer": "ENKRIPSI",
+    "hint_id": "Pengodean data agar aman dari peretas.",
+    "hint_en": "Encoding data to secure from unauthorized access.",
+    "explanation_id": "Enkripsi mengacak informasi plaintext menjadi ciphertext yang hanya bisa dibaca dengan kunci otentik.",
+    "explanation_en": "Encryption scrambles readable data into ciphertext to safeguard confidentiality."
+  },
+  {
+    "id": 89,
+    "difficulty": 2,
+    "category_id": "Hardware",
+    "category_en": "Hardware",
+    "clues": [
+      "🧠",
+      "🖥️",
+      "⚡"
+    ],
+    "answer": "CPU",
+    "hint_id": "Otak utama pemprosesan komputer.",
+    "hint_en": "Central processing unit of a computer.",
+    "explanation_id": "CPU (Central Processing Unit) mengeksekusi instruksi dan kalkulasi utama pada sistem komputer.",
+    "explanation_en": "The CPU acts as the primary brain executing instructions and commands in computers."
+  },
+  {
+    "id": 90,
+    "difficulty": 2,
+    "category_id": "Hardware",
+    "category_en": "Hardware",
+    "clues": [
+      "🎮",
+      "🖼️",
+      "⚡"
+    ],
+    "answer": "GPU",
+    "hint_id": "Kartu grafis pemproses visual game.",
+    "hint_en": "Graphics processing unit for 3D visuals.",
+    "explanation_id": "GPU bertanggung jawab mengolah pemrosesan grafis 3D dan rendering visual berkecepatan tinggi.",
+    "explanation_en": "A GPU specializes in rendering 3D graphics, visuals, and parallel computations."
+  },
+  {
+    "id": 91,
+    "difficulty": 1,
+    "category_id": "Perangkat Lunak",
+    "category_en": "Software",
+    "clues": [
+      "🗑️",
+      "💻",
+      "🔄"
+    ],
+    "answer": "RECYCLE BIN",
+    "hint_id": "Tempat penampungan file hapusan sementara.",
+    "hint_en": "Temporary storage location for deleted files.",
+    "explanation_id": "Recycle Bin menampung berkas terhapus agar masih bisa dipulihkan jika tidak sengaja dibuang.",
+    "explanation_en": "The Recycle Bin temporarily holds deleted files allowing restoration before permanent erasure."
+  },
+  {
+    "id": 92,
+    "difficulty": 2,
+    "category_id": "Otomasi",
+    "category_en": "Automation",
+    "clues": [
+      "🤖",
+      "⚙️",
+      "🏭"
+    ],
+    "answer": "ROBOTIK",
+    "hint_id": "Cabang teknologi perancangan mesin otomatis.",
+    "hint_en": "Technology branch designing automated machines.",
+    "explanation_id": "Robotik mempelajari perancangan dan operasional mesin otomatis pembantu pekerjaan manusia.",
+    "explanation_en": "Robotics involves designing and building automated mechanical agents for human assistance."
+  },
+  {
+    "id": 93,
+    "difficulty": 2,
+    "category_id": "Perangkat Lunak",
+    "category_en": "Software",
+    "clues": [
+      "📂",
+      "🗜️",
+      "📦"
+    ],
+    "answer": "ZIP FILE",
+    "hint_id": "Format arsip kompresi dokumen.",
+    "hint_en": "Compressed archive file format.",
+    "explanation_id": "Format ZIP mengompresi ukuran beberapa berkas menjadi satu arsip yang ringkas.",
+    "explanation_en": "ZIP files compress multiple data documents into a single smaller file archive."
+  },
+  {
+    "id": 94,
+    "difficulty": 2,
+    "category_id": "Hardware",
+    "category_en": "Hardware",
+    "clues": [
+      "⌨️",
+      "👆",
+      "💻"
+    ],
+    "answer": "KEYBOARD",
+    "hint_id": "Papan tombol ketik komputer.",
+    "hint_en": "Text typing input device for computer.",
+    "explanation_id": "Keyboard adalah input fisik berderet tombol huruf untuk memasukkan perintah teks ke sistem.",
+    "explanation_en": "A keyboard is an essential input peripheral featuring keys used to type text and commands."
+  },
+  {
+    "id": 95,
+    "difficulty": 2,
+    "category_id": "Hardware",
+    "category_en": "Hardware",
+    "clues": [
+      "🖱️",
+      "👆",
+      "🖥️"
+    ],
+    "answer": "MOUSE",
+    "hint_id": "Perangkat kursor penunjuk layar.",
+    "hint_en": "Handheld pointing device on screen.",
+    "explanation_id": "Mouse memudahkan navigasi kursor grafis di layar desktop dengan klik interaktif.",
+    "explanation_en": "A mouse is a handheld hardware device controlling graphical cursor navigation on screen."
+  },
+  {
+    "id": 96,
+    "difficulty": 3,
+    "category_id": "Kriptografi",
+    "category_en": "Cryptography",
+    "clues": [
+      "🔑",
+      "🔓",
+      "📜"
+    ],
+    "answer": "DEKRIPSI",
+    "hint_id": "Proses pembukaan kode terenkripsi kembali.",
+    "hint_en": "Process of decoding encrypted ciphertext back.",
+    "explanation_id": "Dekripsi adalah metode mengembalikan data rahasia terenkripsi menjadi teks yang dapat dibaca.",
+    "explanation_en": "Decryption converts encoded ciphertext back into readable plain text using an unencryption key."
+  },
+  {
+    "id": 97,
+    "difficulty": 2,
+    "category_id": "Teknologi",
+    "category_en": "Technology",
+    "clues": [
+      "📷",
+      "⬛",
+      "🔲"
+    ],
+    "answer": "QR CODE",
+    "hint_id": "Kode batang matriks dua dimensi cepat pindai.",
+    "hint_en": "Two-dimensional quick response matrix barcode.",
+    "explanation_id": "QR Code dapat dipindai kamera ponsel cerdas untuk membuka URL atau informasi secara instan.",
+    "explanation_en": "A QR Code is an optical machine-readable barcode linking instantly to digital web data."
+  },
+  {
+    "id": 98,
+    "difficulty": 3,
+    "category_id": "Komputasi",
+    "category_en": "Computing",
+    "clues": [
+      "⚛️",
+      "💻",
+      "⚡"
+    ],
+    "answer": "KOMPUTER KUANTUM",
+    "hint_id": "Komputer super berbasis qubit kuantum.",
+    "hint_en": "Supercomputer operating on quantum qubits.",
+    "explanation_id": "Komputer kuantum memanfaatkan fenomena fisika kuantum untuk kalkulasi kompleks sejuta kali lebih cepat.",
+    "explanation_en": "Quantum computers leverage quantum mechanics to process highly complex calculations exponentially faster."
+  },
+  {
+    "id": 99,
+    "difficulty": 2,
+    "category_id": "Hardware",
+    "category_en": "Hardware",
+    "clues": [
+      "⚡",
+      "🔋",
+      "🎒"
+    ],
+    "answer": "POWERBANK",
+    "hint_id": "Pengisi daya baterai portabel.",
+    "hint_en": "Portable battery charger for mobile devices.",
+    "explanation_id": "Powerbank menyimpan daya listrik portabel untuk mengisi daya baterai smartphone saat bepergian.",
+    "explanation_en": "A power bank stores electrical energy in a portable pack to recharge devices on the go."
+  },
+  {
+    "id": 100,
+    "difficulty": 2,
+    "category_id": "Realitas Digital",
+    "category_en": "Digital Reality",
+    "clues": [
+      "🥽",
+      "🌐",
+      "🕶️"
+    ],
+    "answer": "METAVERSE",
+    "hint_id": "Dunia virtual 3D interaktif realitas maya.",
+    "hint_en": "Interactive 3D virtual shared reality space.",
+    "explanation_id": "Metaverse adalah ruang komunitas virtual 3D terpadu tempat orang berinteraksi lewat avatar.",
+    "explanation_en": "The Metaverse is a collective 3D virtual space combining augmented and virtual reality experiences."
+  }
+]
