@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { getAllPuzzles, getKeyboardLettersForAnswer, shuffleArray } from '../lib/puzzleLoader';
+import { getAllPuzzles, shuffleArray } from '../lib/puzzleLoader';
 import { sendHapticFeedback } from '../lib/telegram';
 import { useUserStore } from './userStore';
 
@@ -13,7 +13,6 @@ export const useGameStore = create((set, get) => ({
   currentIndex: 0,
   currentPuzzle: null,
   userInput: [],
-  keyboardKeys: [],
   
   // Gameplay Mechanics
   timeLeft: 15,
@@ -62,7 +61,7 @@ export const useGameStore = create((set, get) => ({
     }
 
     const puzzle = puzzles[index];
-    const targetLength = puzzle.answer.replace(/\s+/g, '').length;
+
     set({
       currentIndex: index,
       currentPuzzle: puzzle,
@@ -180,9 +179,9 @@ export const useGameStore = create((set, get) => ({
 
   handleTimeout: () => {
     sendHapticFeedback('warning');
-    const { currentPuzzle, streak, lives, history } = get();
+    const { currentPuzzle, history } = get();
 
-    const newLives = lives - 1;
+    const newLives = get().lives - 1;
     const newHistoryItem = {
       id: currentPuzzle.id,
       puzzle: currentPuzzle,
@@ -207,6 +206,19 @@ export const useGameStore = create((set, get) => ({
     } else {
       get().loadPuzzle(currentIndex + 1);
     }
+  },
+
+  reviveWithAd: () => {
+    sendHapticFeedback('success');
+    const { currentIndex } = get();
+    set({
+      lives: 3,
+      screen: 'game',
+      gameState: 'playing',
+      isExplainOpen: false,
+      isHintOpen: false,
+    });
+    get().loadPuzzle(currentIndex + 1);
   },
 
   toggleHint: (show) => set({ isHintOpen: show !== undefined ? show : !get().isHintOpen }),
