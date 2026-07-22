@@ -1,7 +1,10 @@
 import React from 'react';
 
-export const AnswerSlots = ({ answer, userInput, gameState }) => {
+export const AnswerSlots = ({ answer, userInput, gameState, revealedIndices = new Set() }) => {
   if (!answer) return null;
+
+  // Build flat letter array from answer (no spaces) for reveal index mapping
+  const flatAnswer = answer.replace(/\s+/g, '').toUpperCase();
 
   // Split answer into words to handle multi-word answers smoothly
   const words = answer.split(' ');
@@ -18,13 +21,19 @@ export const AnswerSlots = ({ answer, userInput, gameState }) => {
             {letters.map((char, charIdx) => {
               const currentGlobalIndex = letterIndexCounter++;
               const typedLetter = userInput[currentGlobalIndex] || '';
+              const isRevealed = revealedIndices.has(currentGlobalIndex) && !typedLetter;
               const isActive = userInput.length === currentGlobalIndex;
 
               let slotStyle = 'bg-cyber-surface/60 border-white/10 text-cyber-text';
-              if (typedLetter) {
+
+              if (isRevealed) {
+                // Gold reveal style — distinct from player-typed (cyan)
+                slotStyle = 'bg-cyber-yellow/15 border-cyber-yellow text-cyber-yellow shadow-[0_0_8px_rgba(255,208,0,0.5)] font-bold animate-pulse';
+              } else if (typedLetter) {
                 slotStyle = 'bg-cyber-surface border-cyber-cyan text-cyber-cyan shadow-glow-cyan font-bold';
               }
-              if (isActive && gameState === 'playing') {
+
+              if (!isRevealed && isActive && gameState === 'playing') {
                 slotStyle += ' border-cyber-green animate-pulse';
               }
               if (isWrong) {
@@ -36,7 +45,7 @@ export const AnswerSlots = ({ answer, userInput, gameState }) => {
                   key={charIdx}
                   className={`w-9 h-11 sm:w-11 sm:h-13 rounded-lg border-2 flex items-center justify-center text-xl sm:text-2xl font-cyber uppercase transition-all duration-150 ${slotStyle}`}
                 >
-                  {typedLetter}
+                  {isRevealed ? flatAnswer[currentGlobalIndex] : typedLetter}
                 </div>
               );
             })}

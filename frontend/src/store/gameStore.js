@@ -24,7 +24,10 @@ export const useGameStore = create((set, get) => ({
   // Modals
   isHintOpen: false,
   isExplainOpen: false,
-  
+
+  // Reveal feature: Set of global letter indices that are revealed
+  revealedIndices: new Set(),
+
   // Session History
   history: [], // [{ id, puzzle, result: 'correct'|'timeout'|'failed', pointsEarned, timeSpent }]
 
@@ -70,6 +73,7 @@ export const useGameStore = create((set, get) => ({
       gameState: 'playing',
       isExplainOpen: false,
       isHintOpen: false,
+      revealedIndices: new Set(), // Clear reveals per puzzle
     });
   },
 
@@ -223,6 +227,36 @@ export const useGameStore = create((set, get) => ({
 
   toggleHint: (show) => set({ isHintOpen: show !== undefined ? show : !get().isHintOpen }),
   toggleExplain: (show) => set({ isExplainOpen: show !== undefined ? show : !get().isExplainOpen }),
+
+  // Reveal 3 random unrevealed letter positions from the current puzzle
+  revealRandomLetters: () => {
+    const { currentPuzzle, revealedIndices } = get();
+    if (!currentPuzzle) return;
+
+    // Flatten answer into letters (ignoring spaces), building index list
+    const letters = currentPuzzle.answer.replace(/\s+/g, '').toUpperCase();
+    const totalCount = letters.length;
+
+    // Find all indices not yet revealed
+    const unrevealed = [];
+    for (let i = 0; i < totalCount; i++) {
+      if (!revealedIndices.has(i)) unrevealed.push(i);
+    }
+
+    // Pick up to 3 random indices from unrevealed
+    const toReveal = [];
+    const pool = [...unrevealed];
+    const pickCount = Math.min(3, pool.length);
+    for (let i = 0; i < pickCount; i++) {
+      const randIdx = Math.floor(Math.random() * pool.length);
+      toReveal.push(pool[randIdx]);
+      pool.splice(randIdx, 1);
+    }
+
+    const newSet = new Set(revealedIndices);
+    toReveal.forEach((idx) => newSet.add(idx));
+    set({ revealedIndices: newSet });
+  },
 
   endGame: () => {
     const { score } = get();

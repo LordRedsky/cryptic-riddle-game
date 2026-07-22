@@ -6,7 +6,7 @@ import { useUserStore } from '../store/userStore';
 import { shareScoreToTelegram } from '../lib/telegram';
 import { showRewardedAd } from '../lib/adsgram';
 
-export const ResultScreen = ({ adsgramBlockId = 'YOUR_ADSGRAM_BLOCK_ID' }) => {
+export const ResultScreen = ({ adsgramBlockId }) => {
   const { score, maxStreak, history, startGame, setScreen, reviveWithAd } = useGameStore();
   const language = useUserStore((state) => state.language);
   const [loadingAd, setLoadingAd] = useState(false);

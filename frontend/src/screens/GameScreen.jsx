@@ -1,5 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useGameStore } from '../store/gameStore';
+import { useUserStore } from '../store/userStore';
 import { ScoreHUD } from '../components/ScoreHUD';
 import { TimerBar } from '../components/TimerBar';
 import { ClueDisplay } from '../components/ClueDisplay';
@@ -7,9 +8,11 @@ import { AnswerSlots } from '../components/AnswerSlots';
 import { VirtualKeyboard } from '../components/VirtualKeyboard';
 import { ExplainModal } from '../components/ExplainModal';
 import { HintModal } from '../components/HintModal';
+import { RevealModal } from '../components/RevealModal';
 
 export const GameScreen = () => {
   const inputRef = useRef(null);
+  const [isRevealOpen, setIsRevealOpen] = useState(false);
 
   const {
     currentPuzzle,
@@ -23,6 +26,7 @@ export const GameScreen = () => {
     gameState,
     isHintOpen,
     isExplainOpen,
+    revealedIndices,
     typeLetter,
     backspace,
     clearInput,
@@ -30,7 +34,10 @@ export const GameScreen = () => {
     nextPuzzle,
     toggleHint,
     toggleExplain,
+    revealRandomLetters,
   } = useGameStore();
+
+  const { revealUsedToday, maxFreeRevealsPerDay } = useUserStore();
 
   // Active Timer Loop
   useEffect(() => {
@@ -106,6 +113,9 @@ export const GameScreen = () => {
           currentIndex={currentIndex}
           totalPuzzles={puzzles.length}
           onOpenHint={() => toggleHint(true)}
+          onOpenReveal={() => setIsRevealOpen(true)}
+          revealUsedToday={revealUsedToday}
+          maxFreeReveals={maxFreeRevealsPerDay}
         />
 
         <TimerBar timeLeft={timeLeft} maxTime={15} />
@@ -119,6 +129,7 @@ export const GameScreen = () => {
           answer={currentPuzzle.answer}
           userInput={userInput}
           gameState={gameState}
+          revealedIndices={revealedIndices}
         />
         <p className="text-[10px] text-center font-cyber text-cyber-muted tracking-wider uppercase opacity-60">
           Tekan kotak untuk ketik lewat keyboard HP / PC
@@ -150,6 +161,15 @@ export const GameScreen = () => {
         puzzle={currentPuzzle}
         onClose={() => toggleHint(false)}
       />
+
+      <RevealModal
+        isOpen={isRevealOpen}
+        onClose={() => setIsRevealOpen(false)}
+        onReveal={() => {
+          revealRandomLetters();
+        }}
+      />
     </div>
   );
 };
+

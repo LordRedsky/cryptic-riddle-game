@@ -4,7 +4,7 @@ import { HelpCircle, X, Tv, Lock } from 'lucide-react';
 import { useUserStore } from '../store/userStore';
 import { showRewardedAd } from '../lib/adsgram';
 
-export const HintModal = ({ isOpen, puzzle, onClose, blockId = 'YOUR_ADSGRAM_BLOCK_ID' }) => {
+export const HintModal = ({ isOpen, puzzle, onClose, blockId }) => {
   const language = useUserStore((state) => state.language);
   const [unlocked, setUnlocked] = useState(true); // Default unlocked for MVP, can gate with Adsgram
   const [loadingAd, setLoadingAd] = useState(false);

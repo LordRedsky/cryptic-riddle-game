@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flame, Heart, HelpCircle } from 'lucide-react';
+import { Flame, Heart, HelpCircle, Eye } from 'lucide-react';
 
 export const ScoreHUD = ({
   score,
@@ -8,7 +8,12 @@ export const ScoreHUD = ({
   currentIndex,
   totalPuzzles,
   onOpenHint,
+  onOpenReveal,
+  revealUsedToday = 0,
+  maxFreeReveals = 3,
 }) => {
+  const revealsLeft = Math.max(0, maxFreeReveals - revealUsedToday);
+
   return (
     <div className="flex items-center justify-between w-full px-2 py-2 bg-cyber-surface/40 rounded-xl border border-white/5 backdrop-blur-md">
       {/* Level / Index */}
@@ -37,7 +42,7 @@ export const ScoreHUD = ({
         )}
       </div>
 
-      {/* Lives & Hint Button */}
+      {/* Lives, Reveal & Hint Buttons */}
       <div className="flex items-center space-x-2">
         <div className="flex space-x-0.5">
           {[1, 2, 3].map((heartNum) => (
@@ -52,6 +57,26 @@ export const ScoreHUD = ({
           ))}
         </div>
 
+        {/* Reveal Button */}
+        <button
+          onClick={onOpenReveal}
+          className="relative p-1 rounded-lg bg-cyber-yellow/10 hover:bg-cyber-yellow/20 text-cyber-yellow border border-cyber-yellow/30 active:scale-95 transition-all"
+          title="Buka 3 Huruf"
+        >
+          <Eye className="w-4 h-4" />
+          {/* Badge: remaining reveals */}
+          <span
+            className={`absolute -top-1.5 -right-1.5 min-w-[14px] h-[14px] px-0.5 rounded-full text-[9px] font-cyber font-bold flex items-center justify-center ${
+              revealsLeft > 0
+                ? 'bg-cyber-yellow text-cyber-dark'
+                : 'bg-cyber-red/80 text-white'
+            }`}
+          >
+            {revealsLeft > 0 ? revealsLeft : '!'}
+          </span>
+        </button>
+
+        {/* Hint Button */}
         <button
           onClick={onOpenHint}
           className="p-1 rounded-lg bg-cyber-cyan/10 hover:bg-cyber-cyan/20 text-cyber-cyan border border-cyber-cyan/30 active:scale-95 transition-all"
@@ -63,3 +88,4 @@ export const ScoreHUD = ({
     </div>
   );
 };
+
