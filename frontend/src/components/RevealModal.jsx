@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Eye, X, Tv, Sparkles, Lock } from 'lucide-react';
 import { useUserStore } from '../store/userStore';
@@ -14,9 +14,17 @@ export const RevealModal = ({
     useUserStore();
   const [loadingAd, setLoadingAd] = useState(false);
 
+  // Sync reveal count from localStorage when modal opens (NOT during render)
+  useEffect(() => {
+    if (isOpen) {
+      canRevealFree(); // safe inside useEffect, syncs localStorage → state
+    }
+  }, [isOpen, canRevealFree]);
+
   if (!isOpen) return null;
 
-  const isFree = canRevealFree();
+  // Compute from state values directly — NO set() call during render
+  const isFree = revealUsedToday < maxFreeRevealsPerDay;
   const remaining = Math.max(0, maxFreeRevealsPerDay - revealUsedToday);
 
   const handleFreeReveal = () => {

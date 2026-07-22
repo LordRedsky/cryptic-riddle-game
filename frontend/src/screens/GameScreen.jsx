@@ -39,10 +39,17 @@ export const GameScreen = () => {
 
   const { revealUsedToday, maxFreeRevealsPerDay } = useUserStore();
 
-  // Active Timer Loop
+  // Auto-close reveal modal if game state changes (e.g. timeout while modal was open)
+  useEffect(() => {
+    if (isRevealOpen && gameState !== 'playing') {
+      setIsRevealOpen(false);
+    }
+  }, [gameState, isRevealOpen]);
+
+  // Active Timer Loop — pauses when hint or reveal modal is open
   useEffect(() => {
     let interval = null;
-    if (gameState === 'playing') {
+    if (gameState === 'playing' && !isRevealOpen && !isHintOpen) {
       interval = setInterval(() => {
         tickTimer();
       }, 1000);
@@ -50,7 +57,7 @@ export const GameScreen = () => {
     return () => {
       if (interval) clearInterval(interval);
     };
-  }, [gameState, tickTimer]);
+  }, [gameState, tickTimer, isRevealOpen, isHintOpen]);
 
   // Global Physical & Mobile Input Listener
   useEffect(() => {
