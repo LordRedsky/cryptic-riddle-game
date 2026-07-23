@@ -6,8 +6,15 @@ import { showRewardedAd } from '../lib/adsgram';
 
 export const HintModal = ({ isOpen, puzzle, onClose, blockId }) => {
   const language = useUserStore((state) => state.language);
-  const [unlocked, setUnlocked] = useState(true); // Default unlocked for MVP, can gate with Adsgram
+  const [unlocked, setUnlocked] = useState(false);
   const [loadingAd, setLoadingAd] = useState(false);
+
+  // Reset unlocked state when opening modal for a new puzzle
+  React.useEffect(() => {
+    if (isOpen) {
+      setUnlocked(false);
+    }
+  }, [isOpen, puzzle]);
 
   if (!isOpen || !puzzle) return null;
 
@@ -21,8 +28,9 @@ export const HintModal = ({ isOpen, puzzle, onClose, blockId }) => {
         setUnlocked(true);
         setLoadingAd(false);
       },
-      onError: () => {
+      onError: (err) => {
         setLoadingAd(false);
+        console.warn('[HintModal] Ad error:', err);
       }
     });
   };

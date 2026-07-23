@@ -13,18 +13,20 @@ export const showRewardedAd = ({ blockId, onSuccess, onError }) => {
       ? blockId
       : ENV_BLOCK_ID || DEFAULT_TEST_BLOCK_ID;
 
+  console.log(`[Adsgram] Initializing ad with Block ID: "${activeBlockId}"`);
+
   if (typeof window !== 'undefined' && window.Adsgram) {
     try {
-      const AdController = window.Adsgram.init({ blockId: activeBlockId });
+      const AdController = window.Adsgram.init({ blockId: String(activeBlockId) });
       
       AdController.show()
         .then((result) => {
-          // User completed watching the ad successfully
+          console.log("[Adsgram] Ad completed successfully:", result);
           if (onSuccess) onSuccess(result);
         })
         .catch((error) => {
-          console.warn("Adsgram ad error or closed early:", error);
-          // If test ad fails or is closed, fallback to success for smooth dev testing
+          console.warn("[Adsgram] Ad error or closed early:", error);
+          // If test ad or if error occurs, pass error details
           if (activeBlockId === DEFAULT_TEST_BLOCK_ID) {
             console.log("Test mode: Auto-rewarding for dev testing...");
             if (onSuccess) onSuccess({ done: true, test: true });
@@ -33,13 +35,13 @@ export const showRewardedAd = ({ blockId, onSuccess, onError }) => {
           }
         });
     } catch (e) {
-      console.error("Adsgram init error:", e);
-      // Fallback for dev environment
-      if (onSuccess) onSuccess({ done: true, fallback: true });
+      console.error("[Adsgram] Init error:", e);
+      if (onError) onError(e);
+      else if (onSuccess) onSuccess({ done: true, fallback: true });
     }
   } else {
     // Fallback simulation for dev environment outside Telegram
-    console.log("Adsgram SDK not loaded. Simulating rewarded ad success...");
+    console.log("[Adsgram] SDK not loaded. Simulating rewarded ad success...");
     setTimeout(() => {
       if (onSuccess) onSuccess({ done: true, description: 'simulated' });
     }, 1000);
